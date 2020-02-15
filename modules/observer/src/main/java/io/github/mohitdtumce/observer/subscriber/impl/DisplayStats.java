@@ -9,7 +9,6 @@ public class DisplayStats implements Subscriber, Display {
     private Publisher publisher;
     private WeatherData weatherData;
 
-
     @Override
     public void display() {
         System.out.println(this.weatherData.toString());

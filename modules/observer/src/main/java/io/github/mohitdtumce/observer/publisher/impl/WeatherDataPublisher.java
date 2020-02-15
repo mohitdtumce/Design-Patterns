@@ -23,8 +23,13 @@ public class WeatherDataPublisher implements Publisher {
     @Override
     public void removeSubscriber(Subscriber subscriber) {
         int index = this.subscribers.indexOf(subscriber);
-        if (index >= 0)
+        if (index >= 0) {
+            System.out.println("Unsubscribed " + subscriber.getClass().toString());
             this.subscribers.remove(index);
+        } else {
+            System.out.println("Couldn't Unsubscribe");
+        }
+
     }
 
     @Override

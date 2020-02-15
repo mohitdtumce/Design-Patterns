@@ -14,6 +14,12 @@ public class WeatherData {
     private double temperature;
     private double humidity;
 
+    public void setData(double pressure, double temperature, double humidity) {
+        this.pressure = pressure;
+        this.temperature = temperature;
+        this.humidity = humidity;
+    }
+
     @Override
     public String toString() {
         return "[Pressure: " + this.pressure + ", Temperature: " + this.temperature + ", Humidity: " + this.humidity + "]";

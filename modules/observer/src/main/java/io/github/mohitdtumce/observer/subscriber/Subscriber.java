@@ -5,6 +5,8 @@ import io.github.mohitdtumce.observer.publisher.Publisher;
 
 public interface Subscriber {
     public void subscribe(Publisher publisher);
+
     public void unsubscribe();
+
     public void update(WeatherData weatherData);
 }
