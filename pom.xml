@@ -13,6 +13,7 @@
         <module>modules/core</module>
         <module>modules/observer</module>
         <module>modules/decorator</module>
+        <module>modules/singleton</module>
     </modules>
 
     <properties>

@@ -10,6 +10,7 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
+    <groupId>io.github.mohitdtumce.observer</groupId>
     <artifactId>observer</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Observer Pattern</name>
