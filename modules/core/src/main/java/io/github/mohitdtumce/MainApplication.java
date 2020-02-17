@@ -5,7 +5,7 @@ import io.github.mohitdtumce.observer.launcher.ObserverPattern;
 
 public class MainApplication {
     public static void main(String[] args) {
-        // ObserverPattern.execute();
+        ObserverPattern.execute();
         DecoratorPattern.execute();
     }
 }
